@@ -36,6 +36,8 @@ dependencies:
   cupertino_icons: ^1.0.2
   flutter_svg: ^0.17.4
   carousel_slider: ^4.0.0-nullsafty.0
+  lottie: ^1.4.2
+  animated_splash_screen: ^1.3.0
 
 dev_dependencies:
   flutter_test:
@@ -63,6 +65,7 @@ flutter:
    - assets/images/
    - assets/menimages/
    - assets/
+   - assets/lottie/
   # To add assets to your application, add an assets section, like this:
 
 

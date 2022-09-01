@@ -2,13 +2,18 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:shop_app/constants.dart';
+import 'package:shop_app/shop_home/components/Home.dart';
+import 'package:shop_app/shop_home/shop_home_screen.dart';
 import '../../models/product.dart';
 import '../details/components/details_screen.dart';
 import 'categories.dart';
 import 'item_card.dart';
 
 class HomeScreen extends StatelessWidget {
+
   const HomeScreen({Key? key}) : super(key: key);
+
+  BuildContext get context => context;
 
   @override
   Widget build(BuildContext context) {
@@ -70,11 +75,11 @@ class HomeScreen extends StatelessWidget {
       elevation: 0.0,
       leading: IconButton(
           onPressed: () {
-           // Navigator.push(context,
-           // MaterialPageRoute(builder: (context){
-             // return Home();
-            //})
-            //);
+            Navigator.push(context,
+            MaterialPageRoute(builder: (context){
+              return Home();
+            })
+            );
           },
           icon: Icon(
             Icons.arrow_back,

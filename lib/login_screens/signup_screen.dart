@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:shop_app/shop_home/components/Home.dart';
+import 'package:shop_app/shop_home/shop_home_screen.dart';
 
 import 'login_screen.dart';
 
@@ -233,7 +234,7 @@ class _SignupScreenState extends State<SignupScreen> {
                             if(formKey.currentState!.validate()){
                               Navigator.push(context,
                                   MaterialPageRoute(builder: (context){
-                                    return Home();
+                                    return ShopHome();
                                   }));
                             }
                           },

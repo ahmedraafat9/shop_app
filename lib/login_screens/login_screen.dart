@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:shop_app/login_screens/signup_screen.dart';
 import 'package:shop_app/shop_home/components/Home.dart';
+import 'package:shop_app/shop_home/shop_home_screen.dart';
 import 'components/components.dart';
 import 'forgot_password_screen.dart';
 
@@ -142,7 +143,7 @@ class _LoginScreenState extends State<LoginScreen> {
                           if(formKey.currentState!.validate()){
                             Navigator.push(context,
                                 MaterialPageRoute(builder: (context){
-                                  return Home();
+                                  return ShopHome();
                                 })
                             );
                           }

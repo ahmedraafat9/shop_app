@@ -3,6 +3,7 @@ import 'package:shop_app/constants.dart';
 import 'package:shop_app/login_screens/components/splash_screen.dart';
 import 'package:shop_app/login_screens/login_screen.dart';
 import 'package:shop_app/shop_home/components/Home.dart';
+import 'package:shop_app/shop_home/components/cart.dart';
 import 'package:shop_app/shop_home/shop_home_screen.dart';
 import 'package:shop_app/women/screens_home/components/home_screen.dart';
 

@@ -21,7 +21,7 @@ class _CartCounterState extends State<CartCounter> {
         children: [
           buildOutlineButton(icon: Icons.remove,
               press: () {
-                if (numOfItems < 1) {
+                if (numOfItems > 1) {
                   setState(() {
                     numOfItems--;
                   });
